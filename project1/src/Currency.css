@@ -1,0 +1,68 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="number"] {
+    width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .result-group {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .result-group label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .result-group input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .currency-name {
+    font-weight: bold;
+  }
+  
+  .bitcoin-to-currency, .currency-to-bitcoin {
+    margin-left: 20px;
+  }
+  
+  .currency-description {
+    margin-top: 10px;
+  }
